@@ -250,6 +250,11 @@ const Header = () => {
 
   return (
     <header className={`app-header ${scrolled ? 'scrolled' : ''}`}>
+      <div className="logo">
+        <AppLink href="/index.html">
+          <img src="https://res.cloudinary.com/dj3vhocuf/image/upload/v1760886581/taj-consultancy-qatar_mtli7b.png" alt="Taj Design Consult Logo" className="logo-image" />
+        </AppLink>
+      </div>
       <nav className="main-nav" aria-label="Main navigation">
         <ul>
           {navLinks.map((link) => (
